@@ -1,11 +1,18 @@
+//<debug>
+Ext.Loader.setPath({
+    'Ext': 'touch/src',
+    'BucketList': 'app'
+});
+//</debug>
+
 Ext.application({
-    name: 'MyApp',
+    name: 'BucketList',
 
     requires: [
         'Ext.MessageBox'
     ],
 
-    views: ['Main' , 'List' , 'List2' , 'AlamPage'],
+    views: ['Main' , 'Thema' , 'bkList' , 'AlamPage'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
@@ -30,7 +37,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('MyApp.view.Main'));
+        Ext.Viewport.add(Ext.create('BucketList.view.Main'));
     },
 
     onUpdated: function() {

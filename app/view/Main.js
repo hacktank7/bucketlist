@@ -1,5 +1,6 @@
-Ext.define("MyApp.view.Main", {
+Ext.define('BucketList.view.Main', {
     extend: 'Ext.tab.Panel',
+    xtype: 'main',
     requires: [
         'Ext.TitleBar',
         'Ext.Video'
@@ -8,13 +9,13 @@ Ext.define("MyApp.view.Main", {
         tabBarPosition: 'bottom',
 
         items: [{
-            	xtype: "listTab"
-        	},
-            {
-                xtype: "listTab2"
-            },{
-                xtype: "alampage"           	
-            }
+        	xtype: "listTab"
+    	},
+        {
+            xtype: "listTab2"
+        },{
+            xtype: "alampage"           	
+        }
         ]
     }
 });

@@ -1,7 +1,7 @@
-Ext.define("MyApp.view.AlamPage",{
+Ext.define("BucketList.view.AlamPage",{
 	extend: "Ext.Panel",
 	xtype: "alampage",
-	
+
 	config: {
         title: '알림',
         iconCls: 'star',
@@ -13,5 +13,5 @@ Ext.define("MyApp.view.AlamPage",{
                '<h2>Sencha Touch (2.0.0)</h2>'
            ].join("")
 	}
-	
+
 });
