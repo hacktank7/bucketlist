@@ -6,14 +6,17 @@ Ext.Loader.setPath({
 //</debug>
 
 Ext.application({
-    name: 'BucketList',
 
+    name: 'BucketList',
     requires: [
         'Ext.MessageBox'
     ],
 
     views: ['Main' , 'Thema' , 'bkList' , 'AlamPage'],
-
+    models: [ 'BkListModel' ],
+    stores: [ 'BkListStore' ],
+    controllers: ["BkListController"],
+    
     icon: {
         '57': 'resources/icons/Icon.png',
         '72': 'resources/icons/Icon~ipad.png',
