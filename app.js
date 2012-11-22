@@ -12,8 +12,9 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
-    views: ['Main' , 'Thema' , 'bkList' , 'AlamPage'],
-    models: [ 'BkListModel' ],
+    views: [ 'Main' , 'Thema' , 'bkList' , 'AlamPage'
+             ],
+    models: [ 'BkListModel' , 'BkListSave' ],
     stores: [ 'BkListStore' ],
     controllers: ["BkListController"],
     

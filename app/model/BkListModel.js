@@ -1,7 +1,10 @@
 Ext.define('BucketList.model.BkListModel',{
 		extend: 'Ext.data.Model',
 	    config: {
-	    	fields: [	    	            	    	
+	    	fields: [
+	    	    {
+	    	    	name: 'id'
+	    		},    	            	    	
 		        {
 		        	name: 'user',
 		        	mapping: 'user.profile_image_url'
