@@ -63,7 +63,8 @@
      */
     "css": [
         {
-            "path": "resources/css/app.css",
+            //"path": "resources/css/app.css",
+            "path" : "css-debug/usertheme.css",
             "update": "delta"
         }
     ],

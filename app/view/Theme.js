@@ -1,4 +1,4 @@
-Ext.define('BucketList.view.Thema', {
+Ext.define('BucketList.view.Theme', {
     extend: 'Ext.navigation.View',
     xtype: 'listTab',
     
@@ -9,8 +9,8 @@ Ext.define('BucketList.view.Thema', {
                ],
     
     config: {
-        title: '버킷리스트',
-        iconCls: 'star',
+        title: '테 마',
+        iconCls: 'home',
         
         items: [
             {
@@ -21,7 +21,7 @@ Ext.define('BucketList.view.Thema', {
                 "<div style='margin-left: 62px;'>" + 
                 "{text}<br>{created_at:date('d M Y')}" +
                 "</div>",
-                title: '버킷리스트',
+                title: '테 마',
                 
                 store: 'bkListBasic'
             }

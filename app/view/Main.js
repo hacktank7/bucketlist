@@ -14,7 +14,7 @@ Ext.define('BucketList.view.Main', {
         {
             xtype: "listTab2"
         },{
-            xtype: "alampage"           	
+            xtype: "notice"           	
         }
         ]
     }

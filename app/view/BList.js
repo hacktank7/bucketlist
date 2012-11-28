@@ -1,4 +1,4 @@
-Ext.define('BucketList.view.bkList', {
+Ext.define('BucketList.view.BList', {
     extend: 'Ext.navigation.View',
     xtype: 'listTab2',
     
@@ -9,8 +9,8 @@ Ext.define('BucketList.view.bkList', {
                ],
     
     config: {
-        title: 'my리스트',
-        iconCls: 'star',
+        title: '리스트',
+        iconCls: 'compose',
         
         items: [
             {

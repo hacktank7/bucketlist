@@ -1,10 +1,10 @@
-Ext.define("BucketList.view.AlamPage",{
+Ext.define("BucketList.view.Notice",{
 	extend: "Ext.Panel",
-	xtype: "alampage",
+	xtype: "notice",
 
 	config: {
-        title: '알림',
-        iconCls: 'star',
+        title: '알 림',
+        iconCls: 'team',
         html: [
                '<img src="http://staging.sencha.com/img/sencha.png" />',
                '<h1>Welcome to Sencha Touch</h1>',

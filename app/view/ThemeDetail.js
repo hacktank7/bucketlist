@@ -1,4 +1,4 @@
-Ext.define('BucketList.view.Thema', {
+Ext.define('BucketList.view.Theme', {
 	//extend: 'Ext.panel',
 	xtype: 'listTabView',
 	config: {
